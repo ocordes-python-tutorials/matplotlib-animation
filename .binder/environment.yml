@@ -1,0 +1,16 @@
+name: matplotlib-animation-tutorial
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - numpy
+  - matplotlib
+  - scipy
+  - sympy
+  - colorama
+  - pip
+  - pip:
+    - ipympl
+    - jupyterlab_latex
